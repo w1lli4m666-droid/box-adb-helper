@@ -1,0 +1,11 @@
+/build/
+/.signing/
+*.keystore
+*.jks
+*.apk
+*.idsig
+local.properties
+.idea/
+*.iml
+__pycache__/
+
