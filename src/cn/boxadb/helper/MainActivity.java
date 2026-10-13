@@ -93,7 +93,7 @@ public final class MainActivity extends Activity {
         LinearLayout header = new LinearLayout(this); header.setGravity(Gravity.CENTER_VERTICAL);
         TextView title = text(getString(R.string.app_name), 29, WHITE); title.setTypeface(null, Typeface.BOLD);
         header.addView(title, new LinearLayout.LayoutParams(0, -2, 1));
-        header.addView(text(getString(R.string.version_label, "1.1.0"), 15, GREEN)); add(root, header, 0);
+        header.addView(text(getString(R.string.version_label, "1.1.1"), 15, GREEN)); add(root, header, 0);
         add(root, text(getString(R.string.tagline), 16, MUTED), 8);
 
         LinearLayout row = new LinearLayout(this); row.setOrientation(LinearLayout.HORIZONTAL);
@@ -214,10 +214,10 @@ public final class MainActivity extends Activity {
                     command.setText("adb connect " + lanIp + ":" + probePort);
                     caption.setText(getString(R.string.caption_success));
                 } else if (local.isAdb()) {
-                    status.setText(getString(R.string.local_only)); status.setTextColor(AMBER);
+                    status.setText(getString(R.string.local_only)); status.setTextColor(WHITE);
                     detail.setText(getString(R.string.local_only_detail));
                 } else if (unconfirmed) {
-                    status.setText(getString(R.string.port_reachable)); status.setTextColor(AMBER);
+                    status.setText(getString(R.string.port_reachable)); status.setTextColor(WHITE);
                     detail.setText(getString(R.string.port_reachable_detail));
                 } else {
                     status.setText(getString(R.string.adb_not_detected)); status.setTextColor(AMBER);

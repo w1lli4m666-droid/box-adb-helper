@@ -103,7 +103,7 @@ build-tools;35.0.0
 .\build.ps1 -Sdk 'C:\path\to\Android\Sdk' -Jdk 'C:\path\to\jdk-21'
 ```
 
-APK 输出到 `build/box-adb-helper-1.1.0.apk`。脚本使用 aapt2、javac、D8、zipalign 和 apksigner，包含 Android 5 所需的 v1 签名。
+APK 输出到 `build/box-adb-helper-1.1.1.apk`。脚本使用 aapt2、javac、D8、zipalign 和 apksigner，包含 Android 5 所需的 v1 签名。
 
 默认在 `.signing/` 中生成本地开发密钥。不同密钥签名的 APK 无法覆盖安装现有 Release，请使用相同密钥或先卸载旧版本。正式发布沿用的原签名密钥保存在本地，不提交到仓库。
 

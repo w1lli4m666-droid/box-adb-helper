@@ -29,10 +29,10 @@
     <string name="checking_button">Checking…</string>
     <string name="adb_detected">Network ADB detected</string>
     <string name="caption_success">After authorization, run adb devices; device means connected. Trusted devices may not show a prompt.</string>
-    <string name="local_only">Local ADB only</string>
-    <string name="local_only_detail">ADB responded on loopback only. Check your network and system debugging settings.</string>
-    <string name="port_reachable">Port is reachable</string>
-    <string name="port_reachable_detail">No ADB handshake received. An existing connection may block new checks. Run adb devices on the other device.</string>
+    <string name="local_only">Local ADB detected</string>
+    <string name="local_only_detail">Run adb devices on the other device; device means connected. Existing connections can continue.</string>
+    <string name="port_reachable">Debug port is reachable</string>
+    <string name="port_reachable_detail">Run adb devices on the other device; device means connected. Existing connections can continue.</string>
     <string name="adb_not_detected">Network ADB not detected</string>
     <string name="adb_not_detected_detail">No response on this port. Enable system debugging and retry. USB debugging may not enable network ADB.</string>
     <string name="find_debug_settings">Find Developer options or debugging in system settings</string>

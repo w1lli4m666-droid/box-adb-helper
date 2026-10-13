@@ -102,7 +102,7 @@ Then run PowerShell from the repository root:
 .\build.ps1 -Sdk 'C:\path\to\Android\Sdk' -Jdk 'C:\path\to\jdk-21'
 ```
 
-The APK is written to `build/box-adb-helper-1.1.0.apk`. The script uses aapt2, javac, D8, zipalign and apksigner, including v1 signing for Android 5.
+The APK is written to `build/box-adb-helper-1.1.1.apk`. The script uses aapt2, javac, D8, zipalign and apksigner, including v1 signing for Android 5.
 
 By default, a local development key is created in `.signing/`. Builds made with a different key cannot overwrite an installed release; use the same signing key or uninstall the old app first. The original release key is kept privately and is not committed.
 
